@@ -1,0 +1,22 @@
+{
+    "name": "codezero/composer-metapackage-example",
+    "description": "Composer metapackage example.",
+    "keywords": [],
+    "type": "metapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Vermeyen",
+            "email": "ivan@codezero.be"
+        }
+    ],
+    "require": { },
+    "require-dev": { },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
